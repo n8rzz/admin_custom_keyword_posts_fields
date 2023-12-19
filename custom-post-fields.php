@@ -25,7 +25,6 @@ function display_custom_post_fields($post) {
     $keywords_value = get_post_meta($post->ID, '_keywords_field', true);
     $long_tail_keywords_value = get_post_meta($post->ID, '_long_tail_keywords_field', true);
     $lsi_keywords_value = get_post_meta($post->ID, '_lsi_keywords_field', true);
-
     ?>
     <label for="keywords_field"><b>Keywords:</b></label>
     <br>
